@@ -2,6 +2,7 @@
     "token":"token-of-this-application",
     "applicationId":"application-ID-to-watch",
     "ownerId":"your-ID",
+    "sendDM": false,
     "guildId":"guild-ID",
     "channelId":"channel-id-to-send-message",
     "messageStatus": {

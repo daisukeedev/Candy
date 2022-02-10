@@ -10,12 +10,14 @@ Candy is a simple bot made in the Discord.js library, which is in charge of chec
 ## Features
 - Easy and customizable.
 - Prevention of common mistakes.
+- Send notifications to a server channel or DM.
 
 ## Start
 - In [config.json](https://github.com/daisuke118/Candy/blob/main/src/config.json) you will find all the options to configure your environment.
 - `token` Token of this application.
 - `applicactionId` The ID of the application to watch.
 - `ownerId` Your ID.
+- `sendDM` Send DM argument true or false.
 - `guildId` The id of the server where your application to watch is.
 - `channelId` The id of the channel where the notification will be sent.
 - `messageStatus` Customize the message when the app is online or offline.
