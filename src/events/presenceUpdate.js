@@ -10,6 +10,7 @@ module.exports = {
     once: false,
     execute (client, oldPresence, newPresence) {
         if (newPresence.userId !== applicationId) return;
+        if (!oldPresence) return;
         if (oldPresence.status === newPresence.status) return;
         
         const channel = client.channels.cache.get(channelId);
