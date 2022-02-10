@@ -1,0 +1,11 @@
+{
+  "name": "candy",
+  "version": "1.0.0",
+  "description": "A simple bot to check the status of your Discord app",
+  "main": "./src/index.js",
+  "author": "Daisuke",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  }
+}
