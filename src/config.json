@@ -2,11 +2,12 @@
     "token":"token-of-this-application",
     "applicationId":"application-ID-to-watch",
     "ownerId":"your-ID",
-    "sendDM": false,
+    "users":[""],
+    "sendDM":false,
     "guildId":"guild-ID",
     "channelId":"channel-id-to-send-message",
     "messageStatus": {
-        "offline": "Your app's new status is OFFLINE",
-        "online": "Your app's new status is ONLINE"
+        "offline":"Your app's new status is OFFLINE",
+        "online":"Your app's new status is ONLINE"
     }
 }
